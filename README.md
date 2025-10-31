@@ -17,6 +17,6 @@ The methodology focused on using Long Short Term Memory (LSTM) layers, a design 
 The project concluded with the evaluation of two "best" models: **Model 6-4** (two stacked LSTM layers) and **Model 6-6** (three stacked LSTM layers). Text generation quality was evaluated based on metrics such as unique word ratio, repetition rate, and the **accuracy ratio** (the number of actual English words out of all generated words). Model 6-6 generally achieved slightly higher accuracy ratios and was assessed by human judgment as generating text that was more readable than Model 6-4. Despite successful training and optimization, the results showed that **neither model was able to generate full sentences that maintained logical or linguistic sense**. It was observed that increasing the temperature setting during generation resulted in greater word diversity but decreased the accuracy ratio (producing more nonsense words), while very low temperatures often led to repetitive word sequences. A demonstration of the two final models, converted into a Gradio app using Claude AI, is hosted on **HuggingFace Spaces**.
 
 
-===========================================================================================================
+====================================================================
 
 Demo available at HuggingFace Spaces: https://huggingface.co/spaces/Ravenblack7575/harrypottertextgen
